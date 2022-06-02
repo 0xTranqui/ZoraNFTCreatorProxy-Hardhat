@@ -1,6 +1,6 @@
-# Interacting with the ZoraNFTCreatorProxy
+# Interacting with the ZoraNFTCreatorProxy using Hardhat
 
-- NOTE: This is an unofficial guide and not affilitated with Zora in anyway \*
+NOTE: This is an unofficial guide and not affilitated with Zora in anyway
 
 This project provides the bare bones infrastructure needed to interact
 with the ZoraNFTCreatorProxy contract on both [rinkeby](https://rinkeby.etherscan.io/address/0x2d2acD205bd6d9D0B3E79990e093768375AD3a30) and [mainnet](https://etherscan.io/address/0xF74B146ce44CC162b601deC3BE331784DB111DC1)
@@ -14,14 +14,23 @@ Currently, the only official / public UI for interacting with Zora's new [drop c
 
 To get started, follow these steps:
 
-fork repo
+```
+1. Fork repo locally
 
-npm install
+2. Run npm install
 
-navigate to scripts/ZoraNFTCreatorProxy.js
+3. Create a .env following the structure of .env.example to hold your deployer key + alchemy key (you can adjust this to a different RPC provider if you want, will just need to make adjustments in hardhat.config.js and ZoraNFTCreatorProxy.js)
 
-update lines 80-100 with your desired inputs
+3. Navigate to scripts/ZoraNFTCreatorProxy.js
 
-in your terminal, run "npx hardhat run scripts/ZoraNFTCreatorProxy.ks"
+4. Update line 37 to determine rinkeby/mainnet deployment
+
+4. Update lines 80-100 with your desired inputs
+
+5. in your terminal, run "npx hardhat run scripts/ZoraNFTCreatorProxy.js"
+
+6. Copy paste the deployed contract address shown in the console into etherscan
+to confirm contract deployment
+```
 
 Thats it!
