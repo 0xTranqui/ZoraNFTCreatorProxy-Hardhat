@@ -34,3 +34,5 @@ to confirm contract deployment
 ```
 
 Thats it!
+
+Feel free to hit me up at [tranqui.eth](https://twitter.com/0xTranqui) if you have any questions :)
