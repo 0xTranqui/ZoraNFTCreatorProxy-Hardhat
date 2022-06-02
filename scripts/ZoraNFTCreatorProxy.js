@@ -95,8 +95,8 @@ const createDropArgs = [
       0, // presaleEnd - uint64
       "0x0000000000000000000000000000000000000000000000000000000000000000", // presaleMerkleRoot - bytes32
    ], 
-   "", // metadataURIBase - string - ex: ipfs://bafybeia67q6eabx2rzu6datbh3rnsoj7cpupudckijgc5vtxf46zpnk2t4/
-   "", // metadataContractURI - string - ex: ipfs://QmSdWDgtKSSJgGvPcn9WrHTeAoVrTZyhARY2NeZLyWpPi2/metadata.json 
+   "example ->", // metadataURIBase - string - ex: ipfs://bafybeia67q6eabx2rzu6datbh3rnsoj7cpupudckijgc5vtxf46zpnk2t4/
+   "example ->", // metadataContractURI - string - ex: ipfs://QmSdWDgtKSSJgGvPcn9WrHTeAoVrTZyhARY2NeZLyWpPi2/metadata.json 
 ]
 
 async function main() {
