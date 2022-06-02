@@ -24,10 +24,10 @@ module.exports = {
     hardhat: {
     },
     rinkeby: {
-      url: `https://eth-rinkeby.alchemyapi.io/v2/${process.env.NEXT_PUBLIC_ALCHEMY_ID}`,
+      url: `https://eth-rinkeby.alchemyapi.io/v2/${process.env.ALCHEMY_KEY}`,
     },
     mainnet: {
-      url: `https://eth-mainnet.alchemyapi.io/v2/${process.env.NEXT_PUBLIC_ALCHEMY_ID}`
+      url: `https://eth-mainnet.alchemyapi.io/v2/${process.env.ALCHMEY_KEY}`
     }
   },
   solidity: "0.8.10",
