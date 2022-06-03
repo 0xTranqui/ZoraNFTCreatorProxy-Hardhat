@@ -21,7 +21,7 @@ To get started, follow these steps:
 
 4. Update lines 80-100 with your desired inputs
 
-5. in your terminal, run "npx hardhat run scripts/ZoraNFTCreatorProxy.js"
+5. in your terminal, run "npx hardhat --network rinkeby/mainnet run scripts/ZoraNFTCreatorProxy.js"
 
 6. Copy paste the deployed contract address shown in the console into etherscan
 to confirm contract deployment
